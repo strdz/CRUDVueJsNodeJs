@@ -1,0 +1,35 @@
+{
+  "name": "employee-crud-api",
+  "version": "1.0.0",
+  "description": "Aplicação CRUD",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --inspect ./server.js",
+    "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix",
+    "prepush": "npm run lint",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strdz/nodejsproject"
+  },
+  "keywords": [],
+  "author": "Marlon Vinicius",
+  "license": "",
+  "homepage": "",
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "husky": "^4.2.5",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "pg": "^8.3.0"
+  }
+}
